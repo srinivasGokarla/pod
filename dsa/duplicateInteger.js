@@ -15,3 +15,24 @@ class Solution {
     }
    
 }
+
+
+// /**
+//  * @param {number[]} nums
+//  * @return {boolean}
+//  */
+// var containsDuplicate = function(nums) {
+//     const obj = {};
+//    let flag = false;
+
+//    for(let i = 0; i < nums.length; i++) {
+//        if(obj[nums[i]]) {
+//            flag = true;
+//            break;
+//        } else {
+//            obj[nums[i]] = 1;
+//        }
+//    }
+
+//    return flag;
+// };
